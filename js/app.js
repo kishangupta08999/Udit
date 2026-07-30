@@ -347,7 +347,8 @@ statusSelect.value="present";
 else if(data.holiday)
 
 statusSelect.value="holiday";
-
+else 
+    statusSelect.value = "present"; 
 
 
 remarkText.value=data.note||"";
