@@ -348,9 +348,7 @@ else if(data.holiday)
 
 statusSelect.value="holiday";
 
-else
 
-statusSelect.value="none";
 
 remarkText.value=data.note||"";
 
